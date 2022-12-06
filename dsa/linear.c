@@ -2,8 +2,7 @@
 #include<stdlib.h>
 int linearSearch(int, int[], int);
 int linearSearch(int size, int array[], int key) {
-        int i;
-        for(i=0; i<size; i++) {
+        for(int i=0; i<size; i++) {
                 if(key==array[i]) {
                         printf("key value found at index %d\n", i);
                         exit(0);
